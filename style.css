@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+nav {
+    background: #fff;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+nav a, nav b {
+    color: #2d3e50;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: 500;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+    overflow: hidden;
+}
+th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+thead tr {
+    background: #2d3e50;
+    color: #fff;
+}
+tbody tr:nth-child(even) {
+    background: #f5f7fa;
+}
+tbody tr:nth-child(odd) {
+    background: #fff;
+}
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+    margin: 2rem 0 1rem 0;
+}
+button {
+    background: #2d3e50;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #1a2533;
+}
+
+/* ...existing code... */
+.film-panels {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+.film-panel {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+}
+.film-panel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background: #eee;
+    box-shadow: 0 1px 6px rgba(44, 62, 80, 0.10);
+}
+.film-panel h3 {
+    margin: 0.5rem 0;
+    color: #2d3e50;
+}
+.film-panel p {
+    color: #555;
+    font-size: 0.95rem;
+}
+/* ...existing code... */
